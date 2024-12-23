@@ -44,7 +44,7 @@ const loadTasks = () => {
 //   todoList.innerHTML = ""; // Clear the list before loading
 
   if (tasks.length === 0) {
-    todoList.innerHTML = "<li>No tasks available</li>";
+    todoList.innerHTML = "";
   } else {
     tasks.forEach(createTask);
   }
