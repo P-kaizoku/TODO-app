@@ -38,7 +38,7 @@ const saveTasks = () => {
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
-
+// loadtasks
 const loadTasks = () => {
   const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 //   todoList.innerHTML = ""; // Clear the list before loading
