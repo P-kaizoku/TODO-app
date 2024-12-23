@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: #e2af97;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background-color: #70bebb;
+  margin-bottom: 10px;
+  color: #f8f7ec;
+}
+
+
+
+#task {
+  background-color: red;
+  height: 30px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 2px solid black;
+  color: white;
+}
+
+#submit-button{
+    height: 30px;
+    width: 50px;
+    background-color: #70bebb;
+    color: whitesmoke;
+    border-radius: 4px;
+    border: 2px solid olivedrab;
+}
+
+#main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  /* background-color: blue; */
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#todo-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3px;
+  
+  /* align-items: center; */
+  /* background-color: red; */
+  /* position: fixed; */
+  list-style-type: none;
+  width: 400px;
+  height: auto;
+  gap: 4px;
+
+}
+
+#todo-list li{
+  margin: 4px;
+  background-color: green;
+  padding: 5px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#todo-list li button{
+  height: auto;
+  width: 30px;
+  background-color: rgba(255, 52, 52, 0.773);
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
